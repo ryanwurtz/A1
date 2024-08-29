@@ -5,7 +5,6 @@
 
 int main(int argc, char * * argv) {
     int total;
-    printf("Enter Number: ");
     scanf("%d",&total);
     int i;
     int j;

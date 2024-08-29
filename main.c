@@ -4,7 +4,9 @@
 #include <string.h> 
 
 int main(int argc, char * * argv) {
-    int total = (int) strtol(argv[1],NULL,10);
+    int total;
+    printf("Enter Number: ");
+    scanf("%d",&total);
     int i;
     int j;
     int k;
